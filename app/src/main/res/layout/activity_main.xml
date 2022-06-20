@@ -27,4 +27,51 @@
         android:scaleType="center"
         android:background="@android:color/white"
         android:layout_below="@id/title" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:layout_below="@id/logo"
+        android:text="About the Event" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head1"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:fontFamily="@font/alegreya_regular"
+        android:textColor="@android:color/white"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:id = "@+id/desc"
+        android:text="Load the Box is a pop-up book fair organised by Kitablovers in various cities across India. The event has a unique concept- the books are sold collectively in boxes. Boxes come in different sizes. Their prices correspond to these different sizes, and you can take home all the books you fit into the box you have chosen." />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:id="@+id/desc2"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:fontFamily="@font/alegreya_regular"
+        android:textColor="@android:color/white"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:text="The event will soon be held in the city of Pune!" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc2"
+        android:background="#FF6F00"
+        android:id="@+id/desc3"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Dates : 2 June to 5 June 2022 \nTimings : 10 AM to 9 PM \nVenue : Siddhi Banquet Hall, 100 Ft, 7/2-4, DP Rd, Near Mhatre Bridge, Vakil Nagar, Erandwane, Pune, Maharashtra-411004" />
 </RelativeLayout>
