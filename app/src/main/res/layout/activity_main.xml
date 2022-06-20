@@ -6,18 +6,19 @@
     android:layout_height="match_parent"
     android:background="#FFA000"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF6F00"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:padding="16dp"
         android:text="Load The Box"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:padding="16dp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-light" />
+        android:textStyle="bold" />
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
